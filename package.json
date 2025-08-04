@@ -19,7 +19,7 @@
     "url": "https://github.com/anuraghazra/github-readme-stats.git"
   },
   "scripts": {
-    "vercel-build": "npm run build",
+    "vercel-build": "echo 'force classic build'",
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage",
     "test:watch": "node --experimental-vm-modules node_modules/jest/bin/jest.js --watch",
     "test:update:snapshot": "node --experimental-vm-modules node_modules/jest/bin/jest.js -u",
